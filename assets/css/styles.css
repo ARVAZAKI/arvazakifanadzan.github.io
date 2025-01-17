@@ -1012,3 +1012,61 @@ body.light-theme {
     margin-right: auto;
   }
 }
+.download__button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background-color:  var(--first-color);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.download__button:hover {
+  background-color: #fff;
+  ;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.download__icon {
+  font-size: 1.2rem;
+}
+.experience__container {
+  display: grid;
+  gap: 2rem;
+}
+
+.experience__content {
+  background-color: #1a1a2e; /* Warna background gelap */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.experience__content:hover {
+  transform: translateY(-5px);
+}
+
+.experience__role {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--first-color); /* Warna utama */
+}
+
+.experience__company {
+  font-size: 1rem;
+  color: var(--first-color); /* Warna utama */
+}
+
+.experience__duration {
+  font-size: 0.875rem;
+  color: #a8a8b3; /* Warna abu-abu terang untuk kontras */
+}
